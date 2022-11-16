@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "seu-melhor-amigo-cd81a": {
+      "hosting": {
+        "melhoramigo": [
+          "seu-melhor-amigo-cd81a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "seu-melhor-amigo-cd81a"
+  }
+}

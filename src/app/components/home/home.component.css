@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.lista-chat {
+    width: 40%;
+    margin: 16px;
+    background: #c5cae9;
+    border-radius: 16px;
+
+}
+
+.mensagens {
+    width: 60%;
+    margin: 16px;
+    border-radius: 16px;
+
+}
+
+.busca {
+    margin: 24px;
+}

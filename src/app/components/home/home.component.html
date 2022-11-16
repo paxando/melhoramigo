@@ -1,0 +1,18 @@
+<h1 *ngIf="user$ | async as user">Seja bem vindo, {{user.displayName}}!</h1>
+
+
+
+<div class="container">
+    <div class ="lista-chat mat-elevation-z5">
+        <div class="busca">
+            <mat-form-field>
+            <input matInput placeholder="Busca por nome." [formControl]="searchControl" [matAutocomplete]="users"/>
+            <mat-autocomplete #users="matAutocomplete">
+                <mat-option>Hello</mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+        </div>
+
+    </div>
+    <div class="mensagens mat-elevation-z5"></div>
+</div>
